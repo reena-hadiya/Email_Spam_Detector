@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Spam Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>📧 Email Spam Detector</h2>
+        
+        <form id="spamForm">
+            <label for="emailText">Paste Email Content</label>
+            <textarea id="emailText" rows="8" placeholder="Paste subject line and body here..." required></textarea>
+
+            <button type="submit" id="submitBtn">Analyze Email</button>
+        </form>
+
+        <div id="resultCard" class="result-card hidden">
+            <h3 id="resultLabel">--</h3>
+            <p>Spam Confidence: <strong id="spamProb">0%</strong></p>
+            <p>Not Spam Confidence: <strong id="notSpamProb">0%</strong></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
