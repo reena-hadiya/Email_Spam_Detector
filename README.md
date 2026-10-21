@@ -1,5 +1,7 @@
 # Email Spam Detection using Machine Learning and Generative AI
 
+Deployment URL : https://email-spam-detector-qr9s.onrender.com
+
 This project detects spam emails using Machine Learning
 and provides AI-based explanations.
 
