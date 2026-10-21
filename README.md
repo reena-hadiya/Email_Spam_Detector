@@ -17,4 +17,7 @@ and provides AI-based explanations.
 - Scikit-learn
 - Flask
 - React
-- Generative AI
+  
+
+
+  ![alt text](image.png)
